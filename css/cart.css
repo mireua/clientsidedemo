@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display:flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+p {
+    color: #555;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.small-con{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+.footer {
+    background: #4c30a4;
+    color: white;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p {
+    color: black;
+
+}
+
+.footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+    
+.footercolumn1, .footercolumn2, .footercolumn3{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footercolumn1{
+    flex-basis: 30%;
+}
+
+.footercolumn2{
+    flex: 1;
+    text-align: center;
+}
+
+.footercolumn2 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footercolumn3{
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.products-container{
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: block;
+    margin-bottom: 100px;
+}
+
+.product-header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 4px solid black;
+}
+
+.product-title {
+    width: 0 auto;
+    margin: auto;
+}
+
+.price {
+    margin: 0 auto;
+    width: auto;
+    
+}
+
+.quantity {
+    margin: 0 auto;
+    width: auto;
+    
+}
+
+.total {
+    margin: 0 auto;
+    width: auto;
+    
+}
+
+.total1 {
+    border-bottom: 4px solid black;
+}
+
+.products {
+    display: table;
+    width: 100%;
+    margin: auto;
+
+}
+
+.button {
+    display: inline-block;
+    background: #4c30a4;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.button:hover{
+    background: #8c7d9b;
+}
+
+
+
+
+
+

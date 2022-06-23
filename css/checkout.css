@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  width: 500px;
+  margin: 25px auto;
+}
+
+form {
+  padding: 20px;
+  background: #4c30a4;
+  color: #fff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+form label,
+form input,
+form button {
+  border: 0;
+  margin-bottom: 3px;
+  display: block;
+  width: 100%;
+}
+form input {
+  height: 25px;
+  line-height: 25px;
+  background: #fff;
+  color: #000;
+  padding: 0 6px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+form button {
+  height: 30px;
+  line-height: 30px;
+  background: black;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+form .error {
+  color: #ff0000;
+}
+
+.navbar {
+    display:flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+p {
+    color: #555;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.small-con{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+.footer {
+    background: #4c30a4;
+    color: white;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p {
+    color: black;
+
+}
+
+.footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footercolumn1, .footercolumn2, .footercolumn3{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footercolumn1{
+    flex-basis: 30%;
+}
+
+.footercolumn2{
+    flex: 1;
+    text-align: center;
+}
+
+.footercolumn2 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footercolumn3{
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
